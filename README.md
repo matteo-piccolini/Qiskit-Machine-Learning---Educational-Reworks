@@ -18,6 +18,10 @@ The following notebooks have been reworked so far. This list will be updated as 
     * **Description**: Practical application of QNNs for classification and regression tasks. It utilizes `VQC` (Variational Quantum Classifier) and `VQR` (Variational Quantum Regressor) on synthetic datasets to visualize the learning capabilities of quantum models.
     * **Original Tutorial**: [02_neural_network_classifier_and_regressor](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/02_neural_network_classifier_and_regressor.html)
 
+3.  **[Training a Quantum Model on a Real Dataset](./Training%20a%20Quantum%20Model%20on%20a%20Real%20Dataset.ipynb)**
+    * **Description**: Application of the `VQC` to the **Iris flower dataset**. This notebook demonstrates the end-to-end pipeline: data preprocessing (PCA, Scaling), quantum feature mapping, and model training/evaluation on a real-world classification task.
+    * **Original Tutorial**: [02a_training_a_quantum_model_on_a_real_dataset](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/02a_training_a_quantum_model_on_a_real_dataset.html)
+
 ---
 
 ## ⚖️ Legal Notice & Licensing
@@ -40,4 +44,4 @@ In compliance with the Apache 2.0 License:
 To run these notebooks, ensure you have the latest version of Qiskit and the Machine Learning module installed:
 
 ```bash
-pip install qiskit qiskit-machine-learning matplotlib
+pip install qiskit qiskit-machine-learning qiskit-aer scikit-learn seaborn matplotlib
